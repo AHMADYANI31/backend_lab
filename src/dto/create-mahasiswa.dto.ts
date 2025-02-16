@@ -20,7 +20,7 @@ export class CreateMahasiswaDTO{
     @IsString({message: "Kelas Harus Bertipe String"})
     @IsNotEmpty({message:"Tidak Boleh Kosong"})
     @Length(1, 2,{message: "Hanya Bisa Sampai 2 Karakter"})
-    Kelas : string
+    kelas : string
 
     @ApiProperty({ description: "Jurusan", type: String, example:"Informatika"})
     @IsString({message: "Jurusan Harus Bertipe String"})

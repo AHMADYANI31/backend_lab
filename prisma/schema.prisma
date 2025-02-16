@@ -13,10 +13,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Mahasiswa {
+model mahasiswa {
   nim String @id
   nama String
-  Kelas String
+  kelas String
   jurusan String
   jenis_kelamin Jenis_Kelamin
   foto_profile String?
