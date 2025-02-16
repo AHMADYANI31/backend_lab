@@ -20,7 +20,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Lab BackEnd Kelas - C')
-    .setDescription('Muh. Tegar Al Fikri - 105841110722')
+    .setDescription('AHMAD YANI - 105841107922')
     .setVersion('0.1')
     .addTag('Kelas - C')
     .addBearerAuth()
